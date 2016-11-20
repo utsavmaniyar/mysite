@@ -1,10 +1,3 @@
-/* Custom Stylesheet */
-/**
- * Use this file to override Materialize files so you can update
- * the core Materialize files in the future
- *
- * Made By MaterializeCSS.com
- */
 
 nav ul a,
 nav .brand-logo {
@@ -109,4 +102,18 @@ footer.page-footer {
     -webkit-animation-duration:1s;
     -moz-animation-duration:1s;
     animation-duration:1s;
+}
+
+
+
+/*//////////////////////////////////////////*/
+
+.proj-container .pws_tabs_container{
+    background-color: rgba(0, 0, 0, 0.5);
+    border-top-right-radius: 25px;
+    box-shadow: 5px 5px 10px black;
+}
+.proj-container .panel{
+  background-color: rgba(122, 122, 122, 0.5);
+      line-height: normal;
 }
