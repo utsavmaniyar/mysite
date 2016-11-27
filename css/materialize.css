@@ -2694,7 +2694,9 @@ i.tiny {
 i.small {
   font-size: 2rem;
 }
-
+i.small-medium{
+  font-size: 3rem;
+}
 i.medium {
   font-size: 4rem;
 }
