@@ -36,9 +36,19 @@ p {
 	  top:10%;
 	  margin:0px auto;
   }
-  
+  .gcon{
+    font-size: 3.56rem;
+    line-height: 110%;
+    margin: 1.42rem 0 0;
+  }
+  #MyWork h4,
+  #ContactMe h4{
+    margin-top: 0;
+  }
 
-
+nav ul a.active {
+  background: rgba(0,0,0,0.2);
+}
 @media only screen and (max-width : 992px) {
   .parallax-container .section {
     position: absolute;
