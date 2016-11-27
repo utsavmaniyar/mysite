@@ -1,0 +1,9 @@
+
+@media only screen and (min-width: 993px){
+    nav#nav_f .container {
+        width: 95%;
+    }
+}
+nav ul a.active {
+  background: rgba(0,0,0,0.2);
+}
