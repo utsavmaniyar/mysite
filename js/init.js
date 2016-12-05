@@ -58,6 +58,9 @@ for (var j = 0; j < listSkill.length; j++) {
 function myfunc(){
 	$('.skillGroup').addClass('fade');
 	$('.add').addClass('fade bgbase');
-	$('.mySkillbtn').css("right","5%").html("Interesting!!!!");
+	// $('.mySkillbtn').css("right","5%").html("Interesting!!!!");
+	
+	$('.skill-grid').removeClass('hide');
+	$('.wight-trans').addClass('hide');
 }
 	
