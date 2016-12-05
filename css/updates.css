@@ -1,0 +1,112 @@
+
+div.icon-block p.light{
+    text-align: justify;
+}
+.parallax-container.skill-container{
+    background-color: rgba(0,0,0,0.35);
+}
+.hide{
+    display: done !important;
+}
+
+.wight-trans.curv-border{
+    height: 80%;
+    width: 80%;
+    margin-top: 5%;
+    border-radius: 50px;
+    background-color: rgba(120, 120, 120, 0.5);
+    box-shadow: 5px 5px 10px black;
+}
+
+    .skill-container h2.headline{
+    font-size: 2rem;
+    text-align: center;
+    background-color: #26a69a;
+    color: #fff;
+    margin: 0;
+    border-top-left-radius: 50px;
+    padding: 20px;
+    border-top-right-radius: 50px;
+}
+.ICan{
+    line-height: 2em;
+    font-size: 1.5em;
+    padding: 20px;
+}
+.link-container{
+    float: right;
+}
+    .link-container a.btn:hover{
+        box-shadow: 5px 5px 10px black;
+    }
+.link-container.link-btns{
+    float: none;
+    position: absolute;
+    top: 40%;
+    left: 80%;
+}
+.link-container.link-btns a{
+    margin: 5px;
+    width: 80%;
+}
+
+.social-container{
+    left: -605px;
+    top: 10%;
+    position: relative;
+    margin-left: 50%
+}
+#contact .parent-link {
+    fill: none;
+    stroke: #9ecae1;
+    stroke-width: 2px;
+}
+
+#contact .children-link {
+    fill: none;
+    stroke: #f0f0f0;
+    stroke-width: 1.5px;
+}
+
+footer.page-footer {
+    padding-top: 0;
+}
+.footer-copyright{
+    text-align: right;
+}
+@media only screen and (max-width: 600px){
+    .skill-container h2.headline{
+        font-size: 1.5rem;
+        text-align: left;
+    }
+    .ICan{
+    line-height: 1em;
+    font-size: 1.25em;
+    margin: 0;
+    }
+    .ICan li{
+        margin-bottom: 15px;
+        list-style-type: disc;
+    }
+    .link-container{
+        float: none;
+        text-align: center;
+    }
+
+    .link-container a.btn{
+        font-size: 12px;
+        padding: 0 1rem;
+    }
+}
+        
+@media only screen and (max-width: 992px){
+    .only-desktop{
+        display: none !important;
+    }
+}
+@media only screen and (min-width: 993px){
+    .ICan{
+    width: 70%;
+    margin: 0 auto;
+    }
+}

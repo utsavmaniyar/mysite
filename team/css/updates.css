@@ -7,3 +7,7 @@
 nav ul a.active {
   background: rgba(0,0,0,0.2);
 }
+
+parallax-container.skill-container{
+    background-color: rgba(0,0,0,0.35);
+}

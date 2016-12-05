@@ -21,11 +21,6 @@ p {
   .parallax-container .section {
     width: 100%;
   }
-  .mySkillbtn{
-	  position:absolute;
-	  top:41%;
-	  right:41%;
-  }
   .myList{
 	  position:absolute;
 	  top:10%;
@@ -51,8 +46,8 @@ nav ul a.active {
 }
 @media only screen and (max-width : 992px) {
   .parallax-container .section {
-    position: absolute;
-    top: 40%;
+    /*position: absolute;
+    top: 40%;*/
   }
   #index-banner .section {
     top: 10%;
@@ -95,7 +90,7 @@ footer.page-footer {
 .skillGroup{
 	opacity:0;
 	position:absolute;
-	left:32%;
+	left:25%;
 }
 @-webkit-keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
 @-moz-keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
