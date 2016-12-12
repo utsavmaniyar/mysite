@@ -123,14 +123,22 @@ footer.page-footer {
   top: 15%;
 }
 .proj-container .panel{
-  background-color: rgba(122, 122, 122, 0.5);
-      line-height: normal;
+    background-color: rgba(122, 122, 122, 0.5);
+    line-height: normal;
 }
 
 @media only screen and (max-width : 600px) {
 .proj-container .no-pad-bot{
   top: 5%;
   }
+.proj-container .panel{
+   overflow: auto;
+    max-height: 300px;
+  }
+  .proj-container .panel p {
+    margin-top: 0;
+  }
+
   .proj-container .pws_tabs_container{
     width: 100% !important;
   }
