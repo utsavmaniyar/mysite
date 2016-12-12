@@ -1,3 +1,8 @@
+p.headline{
+    font-size: 1.64rem;
+    line-height: 110%;
+    margin: 0.82rem 0 0.656rem 0;
+}
 
 div.icon-block p.light{
     text-align: justify;
