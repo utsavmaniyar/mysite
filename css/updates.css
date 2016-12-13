@@ -115,3 +115,6 @@ footer.page-footer {
     margin: 0 auto;
     }
 }
+@media print{
+    /*styles here*/
+}
