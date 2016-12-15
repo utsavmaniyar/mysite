@@ -36,8 +36,8 @@ g,k,m)},20)}else b.style.backgroundImage="none",a.close&&(c.appendChild(e),e.v=1
 n))*g+"px"),this.pos())},top:function(){return document.documentElement.scrollTop||document.body.scrollTop},width:function(){return self.innerWidth||document.documentElement.clientWidth||document.body.clientWidth},height:function(){return self.innerHeight||document.documentElement.clientHeight||document.body.clientHeight},total:function(a){var b=document.body,c=document.documentElement;return a?Math.max(Math.max(b.scrollHeight,c.scrollHeight),Math.max(b.clientHeight,c.clientHeight)):Math.max(Math.max(b.scrollWidth,
 c.scrollWidth),Math.max(b.clientWidth,c.clientWidth))}}}();
 
-$(document).ready(function(){
-    $('.maintenance-container a').click(function(){
-      $('.maintenance-container').hide();
-    });
-  });
+// $(document).ready(function(){
+//     $('.maintenance-container a').click(function(){
+//       $('.maintenance-container').hide();
+//     });
+//   });
